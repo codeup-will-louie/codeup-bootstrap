@@ -12,16 +12,16 @@
     --red: #E6563B;
 }
 
-h1 {
+h1, h3 {
     font-family: 'Anton', sans-serif;
 }
 .logo {
     margin: 0 auto;
     height: 105px;
     width: 105px;
-    position: absolute;
+    position: relative;
     top: -20px;
-    z-index: auto;
+    /*z-index: auto; */
 }
 
 .header {
