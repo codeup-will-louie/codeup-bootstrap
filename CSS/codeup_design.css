@@ -1,6 +1,6 @@
 * {
     font-family: 'Abel', sans-serif;
-    /*  <link href="https://fonts.googleapis.com/css?family=Abel|Anton" rel="stylesheet"> */
+    /*   */
 
 }
 :root {
@@ -13,8 +13,17 @@
 }
 
 h1 {
-        font-family: 'Anton', sans-serif;
+    font-family: 'Anton', sans-serif;
 }
-div.logo {
+.logo {
+    margin: 0 auto;
+    height: 105px;
+    width: 105px;
+    position: absolute;
+    top: -20px;
+    z-index: auto;
+}
 
+.header {
+    background-color: var(--grey-dark);
 }
