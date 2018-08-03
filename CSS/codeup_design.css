@@ -1,0 +1,20 @@
+* {
+    font-family: 'Abel', sans-serif;
+    /*  <link href="https://fonts.googleapis.com/css?family=Abel|Anton" rel="stylesheet"> */
+
+}
+:root {
+    --orange: #EB9D3A;
+    --blue: #00ABA9;
+    --green: #7CB06C;
+    --grey-light: #F0F0F0;
+    --grey-dark: #E6E6E6;
+    --red: #E6563B;
+}
+
+h1 {
+        font-family: 'Anton', sans-serif;
+}
+div.logo {
+
+}
