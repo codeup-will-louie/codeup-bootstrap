@@ -12,7 +12,7 @@
     --red: #E6563B;
 }
 
-h1, h3 {
+h1, h3, div>.text-white {
     font-family: 'Anton', sans-serif;
 }
 .logo {
@@ -24,6 +24,53 @@ h1, h3 {
     /*z-index: auto; */
 }
 
-.header {
+.bg-gray {
     background-color: var(--grey-dark);
 }
+
+.circle {
+    height: 105px;
+    width: 105px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50%;
+    text-align: center;
+    border-width: medium;
+    /*margin: 20px auto;*/
+}
+
+.small-circle {
+    height: 18px;
+    width: 18px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50%;
+    text-align: center;
+    border-width: medium;
+    font-size: x-small;
+    padding-bottom: 13px;
+    /*margin: 20px auto;*/
+}
+
+.orange {
+    background-color: var(--orange);
+}
+
+.red {
+    background-color: var(--red);
+}
+
+.green {
+    background-color: var(--green);
+}
+
+.blue {
+     background-color: var(--blue);
+ }
+
+.center {
+    position: relative;
+    top: 40%;
+    bottom: 50%;
+}
+
