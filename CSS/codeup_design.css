@@ -12,8 +12,28 @@
     --red: #E6563B;
 }
 
-h1, h3, div>.text-white {
+h1, h2,  h3, h4, h5,  div>.text-white {
     font-family: 'Anton', sans-serif;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 32px;
+}
+
+h5 {
+    font-size: 28px;
 }
 .logo {
     margin: 0 auto;
@@ -25,17 +45,20 @@ h1, h3, div>.text-white {
 }
 
 .bg-gray {
-    background-color: var(--grey-dark);
+    background-color: var(--grey-light);
 }
 
 .circle {
-    height: 105px;
-    width: 105px;
+    /*height: 105px;*/
+    /*width: 105px;*/
+    height: 175px;
+    width: 175px;
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
     border-radius: 50%;
     text-align: center;
-    border-width: medium;
+    border: 10px solid white;
+    background-color: white;
     /*margin: 20px auto;*/
 }
 
@@ -72,5 +95,21 @@ h1, h3, div>.text-white {
     position: relative;
     top: 40%;
     bottom: 50%;
+}
+
+header {
+    height: 55px;
+}
+
+.image-border {
+    background-color: var(--grey-dark);
+    /*border: 10em;*/
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2%;
+}
+
+.border-box {
+    box-sizing: border-box;
 }
 
