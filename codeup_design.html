@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/codeup_design.css">
     <title>Codeup Design</title>
 </head>
-<body class="bg-gray">
+<body class="container-fluid bg-gray">
 
 
         <!--Extra Small Screen Size-->
@@ -19,65 +19,89 @@
 
             <div class="row p-3"></div>
 
-            <header class="row bg-white header">
+            <header class="d-none d-md-block row bg-white header">
+                <header class="row bg-white header">
+                    <!--<div class="col-4 d-md-none col-lg-2" ></div>-->
+                    <div class="col-md-1 text-center position-relative mx-auto">
+                        <img src="images/logo.jpg" alt="" class="logo rounded-circle border-0">
+                    </div>
+                    <div class="col-md text-left display-4 pl-5">codeup design</div>
+                    <div class="col-md-1"></div>
+                    <!--<div class="col-5 col-md-10 col-lg-8" ></div>-->
+                    <div class="col-md-4 pt-2">
+                        <ul class="nav justify-content-center text-size">
+                            <li class="nav-item nav-link px-3">SERVICES</li>
+                            <li class="nav-item nav-link px-3">WORK</li>
+                            <li class="nav-item nav-link px-3">BLOG</li>
+                            <li class="nav-item nav-link px-3">CONTACT</li>
+                        </ul>
+                    </div>
+                </header>
+            </header>
+            <header class="d-md-none row bg-white header">
                 <!--<div class="col-4 d-md-none col-lg-2" ></div>-->
                 <div class="text-center position-relative mx-auto">
                     <img src="images/logo.jpg" alt="" class="logo rounded-circle border-0">
                 </div>
                 <!--<div class="col-5 col-md-10 col-lg-8" ></div>-->
             </header>
-            <div class="row"><h2 class="pt-4 mx-auto">codeup design</h2></div>
+            <div class="d-md-none text-center display-4 pt-4 mx-auto">codeup design</div>
 <!--end of header and logo-->
 
-            <ul class="nav justify-content-center text-size">
+            <ul class="nav justify-content-center text-size d-md-none">
                 <li class="nav-item nav-link px-3">SERVICES</li>
                 <li class="nav-item nav-link px-3">WORK</li>
                 <li class="nav-item nav-link px-3">BLOG</li>
                 <li class="nav-item nav-link px-3">CONTACT</li>
             </ul>
-            <h1 class="text-center py-5">VISUAL DESIGN & WEB DEVELOPMENT</h1>
-            <h3 class="text-center pb-5">FROM PARK CITY, UTAH</h3>
+            <h2 class="text-center py-5">VISUAL DESIGN & WEB DEVELOPMENT</h2>
+            <h4 class="text-center pb-5">FROM PARK CITY, UTAH</h4>
 
 
             <!--Updated Row for LARGE Colored Circles -->
-           <div class="row bg-gray pb-3 mb-5">
-
-                <div class="col-6 col-md-3 p-2">
-                    <div class="mx-auto  rounded-circle circle red border-white">
+            <div class="container container-fluid p-0">
+           <div class="row bg-gray mb-0">
+            <div class="col-sm"></div>
+                <div class="col-6 col-sm p-2">
+                    <div class="mx-auto rounded-circle circle red border-white">
                         <h5 class="text-center text-white my-auto center">DESIGN</h5>
                     </div>
                 </div>
 
-               <div class="col-6 col-md-3 p-2">
+               <div class="col-6 col-sm p-2">
                 <div class="mx-auto border-white rounded-circle circle orange">
                     <h5 class="text-center text-white my-auto center">DEVELOP</h5>
                 </div>
                </div>
 
-               <div class="col-6 col-md-3 p-2">
+               <div class="col-6 col-sm p-2">
                 <div class="mx-auto border-white rounded-circle circle green">
                     <h5 class="text-center text-white my-auto center">SUPPORT</h5>
                 </div>
                </div>
 
-               <div class="col-6 col-md-3 p-2">
+               <div class="col-6 col-sm p-2">
                 <div class="mx-auto border-white rounded-circle circle blue">
                     <h5 class="text-center text-white my-auto center">HOST</h5>
                 </div>
                </div>
-           </div>
 
+               <div class="col-sm"></div>
+            </div>
             <!--Images Positioning-->
+            <section>
+                <hr class="d-none d-sm-block">
+            </section>
+            <div class="row p-1"></div>
 
                 <div class="text-center m-5">SELECTED WORK</div>
 
-              <section>
 
-              </section>
             <!--Apples and Computer Image with Featured Project and Small Icons-->
-                <div class="border-box">
+            <div class="row">
+                <div class="border-box col-sm-6">
                     <div class="text-center image-border">
-                        <img src="images/apple-ipad.jpg" alt="" class="p-3 w-100">
+                        <img src="images/apple-ipad.jpg" alt="" class="p-2 w-100">
                     </div>
                     <p class="float-left">FEATURED PROJECT</p>
 
@@ -100,20 +124,93 @@
                             </li>
                         </ul>
                 </div> <!--end of Apples and Computer Image with Icons-->
+
+            <div class="border-box d-none d-sm-block col-sm-6">
+                <div class="text-center image-border">
+                    <img src="images/macbook.jpg" alt="macbook" class="p-2 w-100">
+                </div>
+                <p class="float-left">FEATURED PROJECT</p>
+
+                <!--Updated Row for SMALL Colored Circles -->
+                <ul class="list-inline float-right">
+                    <li class="list-inline-item mx-auto rounded-circle small-circle red">
+                        <div class="text-center center">D</div>
+                    </li>
+
+                    <li class="list-inline-item mx-auto rounded-circle small-circle orange">
+                        <div class="text-center my-auto center">D</div>
+                    </li>
+
+                    <li class="list-inline-item mx-auto rounded-circle small-circle green">
+                        <div class="text-center my-auto center">S</div>
+                    </li>
+
+                    <li class="list-inline-item mx-auto rounded-circle small-circle blue">
+                        <div class="text-center my-auto center">H</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="border-box d-none d-sm-block col-sm-6">
+                <div class="text-center image-border">
+                    <img src="images/man.jpg" alt="man" class="p-2 w-100">
+                </div>
+                <p class="float-left">FEATURED PROJECT</p>
+
+                <!--Updated Row for SMALL Colored Circles -->
+                <ul class="list-inline float-right">
+                    <li class="list-inline-item mx-auto rounded-circle small-circle red">
+                        <div class="text-center center">D</div>
+                    </li>
+
+                    <li class="list-inline-item mx-auto rounded-circle small-circle orange">
+                        <div class="text-center my-auto center">D</div>
+                    </li>
+
+                    <li class="list-inline-item mx-auto rounded-circle small-circle green">
+                        <div class="text-center my-auto center">S</div>
+                    </li>
+
+                    <li class="list-inline-item mx-auto rounded-circle small-circle blue">
+                        <div class="text-center my-auto center">H</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="border-box d-none d-sm-block col-sm-6">
+                <div class="text-center image-border">
+                    <img src="images/security.jpg" alt="security image" class="p-2 w-100">
+                </div>
+                <p class="float-left">FEATURED PROJECT</p>
+
+                <!--Updated Row for SMALL Colored Circles -->
+                <ul class="list-inline float-right">
+                    <li class="list-inline-item mx-auto rounded-circle small-circle red">
+                        <div class="text-center center">D</div>
+                    </li>
+
+                    <li class="list-inline-item mx-auto rounded-circle small-circle orange">
+                        <div class="text-center my-auto center">D</div>
+                    </li>
+
+                    <li class="list-inline-item mx-auto rounded-circle small-circle green">
+                        <div class="text-center my-auto center">S</div>
+                    </li>
+
+                    <li class="list-inline-item mx-auto rounded-circle small-circle blue">
+                        <div class="text-center my-auto center">H</div>
+                    </li>
+                </ul>
+            </div></div>
         </main>
 
+            <div class="d-none">
 
-
-
-            <!--<div>-->
-            <!--<img src="images/macbook.jpg" alt="">-->
-            <!--</div>-->
-            <!--<div>-->
-            <!--<img src="images/man.jpg" alt="">-->
-            <!--</div>-->
-            <!--<div>-->
-            <!--<img src="images/security.jpg" alt="">-->
-            <!--</div>-->
+            </div>
+            <div class="d-none">
+             alt="">
+            </div>
+            <div class="d-none">
+             alt="">
+            </div>
 
     <!--<p>Test</p>-->
     <!--<div class="container">-->

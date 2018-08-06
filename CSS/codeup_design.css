@@ -1,5 +1,6 @@
 * {
     font-family: 'Abel', sans-serif;
+    transition: all 1s;
     /*   */
 
 }
@@ -32,7 +33,7 @@ h4 {
     font-size: 32px;
 }
 
-h5 {
+h58 {
     font-size: 28px;
 }
 .logo {
@@ -48,16 +49,28 @@ h5 {
     background-color: var(--grey-light);
 }
 
+ /* @media screen and (min-width: 576px) {
+    .circle {
+        height: 105px;
+        width: 105px;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 50%;
+        text-align: center;
+        border: 5px solid white;
+        background-color: white;
+        /*margin: 20px auto;
+    }
+} */
+
 .circle {
-    /*height: 105px;*/
-    /*width: 105px;*/
-    height: 175px;
-    width: 175px;
+    height: 105px;
+    width: 105px;
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
     border-radius: 50%;
     text-align: center;
-    border: 10px solid white;
+    border: 5px solid white;
     background-color: white;
     /*margin: 20px auto;*/
 }
@@ -104,9 +117,9 @@ header {
 .image-border {
     background-color: var(--grey-dark);
     /*border: 10em;*/
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    border-radius: 2%;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
 }
 
 .border-box {
