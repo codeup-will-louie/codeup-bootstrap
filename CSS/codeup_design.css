@@ -122,7 +122,18 @@ header {
     border-radius: 1px;
 }
 
+.image {
+    height: 50px;
+    widows: 50px;
+    float: left;
+    background: var(--grey-light);
+}
 .border-box {
     box-sizing: border-box;
 }
 
+.tweet {
+    z-index: 0;
+    height: 30px;
+    color: #4ca0ec;
+}
